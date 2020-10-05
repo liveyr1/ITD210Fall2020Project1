@@ -2,7 +2,7 @@
 
 /*
    Author: Jeff Scott
-   Date: 29Sep20202020
+   Date: 04Oct2020
 
 */
 
@@ -24,6 +24,13 @@ body {
 	float: none;
 	min-height: 100%;
 }
+p {
+	color: blue;
+	text-indent: 10px;
+	text-transform: uppercase;
+	
+}
+
 nav {
 	width: 25%;
 	float: left;
@@ -56,7 +63,7 @@ nav ul li a:hover {
 	font-size: 1em;
 }
 
-#social li#sociallink a {
+#contact li#contactlink a {
    color: blue;
    background-color: yellow;
 }
@@ -150,6 +157,12 @@ body article h1 {
    font-size: 1.75em;
 }
 
+body h3 {
+	margin: 10px 0px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 1.0em;
+}
+
 article {
 	width: 94%;
 	float: none;
@@ -157,9 +170,9 @@ article {
 }
 
 article img {
-	float: left;
-	width: 2%;
-	margin: 0% 1% 0% 0%;
+	float: right;
+	width: 30%;
+	margin: 2% 10% 0% 0%;
 }
 nav ul li {
 	display: table-cell;
@@ -223,6 +236,12 @@ body h2 {
 	margin: 10px 0px;
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
 	font-size: 2em;
+}
+
+body h3 {
+	margin: 10px 0px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 1.5em;
 }
 
 body p, body address {
